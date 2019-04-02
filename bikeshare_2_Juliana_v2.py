@@ -226,7 +226,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         plot_data(df)
-
+        #ask if user wants to restar the script
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
