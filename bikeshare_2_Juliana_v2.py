@@ -210,7 +210,7 @@ def plot_data(df):
         plt.xlabel('Number of users')
         plt.title('Number of users per type')
         plt.show()
-
+        #display number of users per gender
         df['Gender'].value_counts().plot(kind='barh')
         plt.ylabel('Gender')
         plt.xlabel('Number of users')
@@ -228,7 +228,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         plot_data(df)
-
+        #ask if user wants to restar the script
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
