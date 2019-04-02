@@ -199,6 +199,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def plot_data(df):
+    """Displays plots if user choose yes."""
 
     plot_true = input('\nWould you like to see some calculed statistics with plots? Enter yes or no\n').lower()
     
