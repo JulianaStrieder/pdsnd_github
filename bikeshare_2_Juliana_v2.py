@@ -208,7 +208,7 @@ def plot_data(df):
         plt.xlabel('Number of users')
         plt.title('Number of users per type')
         plt.show()
-
+        #display number of users per gender
         df['Gender'].value_counts().plot(kind='barh')
         plt.ylabel('Gender')
         plt.xlabel('Number of users')
