@@ -5,7 +5,7 @@ This project was created on April 1st 2019.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project aims to analyze data from the Bike Share system, covering 3 cities: New York, Washington and Chicago.
 
 ### Files used
 Include the files used
