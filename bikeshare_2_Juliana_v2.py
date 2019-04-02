@@ -203,6 +203,7 @@ def plot_data(df):
 
     plot_true = input('\nWould you like to see some calculed statistics with plots? Enter yes or no\n').lower()
     
+    #display number of users per type with a bar plot
     if plot_true == 'yes':
         df['User Type'].value_counts().plot(kind='barh')
         plt.ylabel('User Type')
